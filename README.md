@@ -9,8 +9,8 @@ WordPress: Sử dụng image: wordpress:latest, truyền các tham số môi tr�
 ## file yml :
 version: '3.8'
 
-services:
-  db:
+services: <br>
+  db: <br> 
     image: mariadb:latest
     container_name: btvn3_db
     restart: always
