@@ -39,7 +39,7 @@ Sử dụng block Audio để tải lên 1 file ghi âm ngắn lời chào (ho�
 Rất tiết kiệm thời gian. Thay vì phải code từ đầu (HTML/CSS/JS/PHP) và tự thiết kế database, WordPress cung cấp sẵn toàn bộ khung hệ thống (CMS). Kết hợp với Docker, việc dựng trọn vẹn cụm Web + Database chỉ tốn vài phút qua 1 file cấu hình duy nhất.
 ## Độ Dễ/Khó sử dụng:
 Cực kỳ thân thiện và dễ dùng. Giao diện quản trị (Dashboard) trực quan, hỗ trợ kéo thả (Gutenberg block editor) giúp người không chuyên sâu về code vẫn đăng bài, chèn ảnh, video dễ dàng như dùng Word. Kho giao diện (Themes) và Trình cắm (Plugins) đồ sộ giúp mở rộng tính năng nhanh chóng.
-## ốn kém tài nguyên máy chủ:
+## Tốn kém tài nguyên máy chủ:
 • RAM: Ở mức cơ bản (chạy qua Docker gồm MariaDB + WP), hệ thống tiêu tốn khoảng 300MB - 500MB RAM khi rảnh rỗi. Cần máy chủ tối thiểu 1GB RAM để chạy mượt mà. <br>
 • CPU: Nhẹ nhàng khi ít truy cập, nhưng PHP/MySQL có thể ngốn CPU nếu cài quá nhiều Plugin nặng hoặc bị phình to cơ sở dữ liệu. <br>
 • Ổ cứng (Storage): Source code ban đầu khá nhẹ (khoảng vài chục MB), nhưng sẽ tăng dần theo thời gian khi upload nhiều hình ảnh, video vào thư mục wp_data <br>
